@@ -1,65 +1,59 @@
-# Simon Says Game
+# 🎮 Simon Says Game (Pygame Version) 🎨
 
-## Description
-This is a simple command-line **Simon Says** memory game written in Python. The game challenges the player to remember and repeat an increasing sequence of colors.
+## 📝 Description
+This is a graphical **Simon Says** memory game built using **Pygame**. The game challenges players to remember and repeat an increasing sequence of colors by clicking the correct buttons on the screen.
 
-## How to Play
-1. The game starts by displaying a sequence of colors.
-2. The player must memorize and **repeat the sequence** correctly.
-3. If the player enters the correct sequence, the game continues by **adding one more color** to the sequence.
-4. If the player enters the wrong sequence, the game **ends**, displaying the correct sequence and the final score.
-5. The player can type **"exit"** anytime to quit the game.
+## 🎯 How to Play
+1. ▶️ The game starts by displaying a sequence of colors that the player must **memorize**.
+2. 🖱️ The player must **click** the buttons in the correct order.
+3. ✅ If the player correctly follows the sequence, a new color is added, and the game continues.
+4. ❌ If the player makes a mistake, the game ends, and the final score is displayed.
+5. 🚪 The player can exit the game by closing the window.
 
-## Installation
-To play the game, ensure you have **Python 3.x** installed on your system.
+## 🛠️ Installation
+Ensure you have **Python 3.x** installed and install **Pygame** if not already installed.
 
-### Steps:
+### 📌 Steps:
 1. Clone this repository:
    ```sh
    git clone https://github.com/your-username/simon-says-game.git
    cd simon-says-game
    ```
-2. Run the game:
+2. Install dependencies:
    ```sh
-   python simon_says.py
+   pip install pygame
+   ```
+3. Run the game:
+   ```sh
+   python simon_says_pygame.py
    ```
 
-## Dependencies
-No additional libraries are required. The game runs using built-in Python modules:
-- `random` (for generating random colors)
-- `time` (for displaying colors with a delay)
+## 📦 Dependencies
+This game requires:
+- 🎮 `pygame` (for graphical user interface)
+- 🎲 `random` (for generating random colors)
+- ⏳ `time` and `🖥️ sys` (for game control)
 
-## Features
-- Randomized color sequences for an engaging experience.
-- Increasing difficulty with each round.
-- Ability to exit the game anytime with "exit".
-- Displays the correct sequence when the player makes a mistake.
+## 🌟 Features
+- 🖥️ **Graphical interface** with clickable buttons.
+- 🎨 **Randomized color sequences** to increase difficulty.
+- 📈 **Increasing challenge** with each round.
+- 🏆 **Game over screen** displaying the final score.
 
-## Example Gameplay
-```
-Welcome to Simon Says!
-Repeat the sequence of colors in order. Type 'exit' to quit.
+## 🕹️ Example Gameplay
+1. 🎬 The game starts by showing a color sequence (e.g., "🔴 Red").
+2. 🖱️ The player clicks the correct button.
+3. ➕ The game adds a new color to the sequence and repeats it.
+4. 🔄 The player must correctly repeat the entire sequence.
+5. ❌ If the player makes a mistake, the game ends with a final score message.
 
-Simon says:
-red
-------
+## 🤝 Contributing
+Feel free to fork the repository and submit pull requests with improvements or new features! 🚀
 
-Your turn! Enter the sequence (space-separated):
-red
-Good job! Current score: 1
-
-Simon says:
-red blue
-------
-
-Your turn! Enter the sequence (space-separated):
-red blue
-Good job! Current score: 2
-```
-
-## Contributing
-Feel free to fork the repository and submit pull requests with improvements or new features!
+## 📜 License
+This project is open-source and available under the **MIT License**.
 
 ---
-Enjoy playing Simon Says! 🎮
+🎉 Enjoy playing Simon Says! 🕹️
+
 
