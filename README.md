@@ -50,9 +50,6 @@ This game requires:
 ## 🤝 Contributing
 Feel free to fork the repository and submit pull requests with improvements or new features! 🚀
 
-## 📜 License
-This project is open-source and available under the **MIT License**.
-
 ---
 🎉 Enjoy playing Simon Says! 🕹️
 
