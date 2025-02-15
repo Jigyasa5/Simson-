@@ -1,4 +1,3 @@
-# Simson
 # Simon Says Game
 
 ## Description
